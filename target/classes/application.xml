@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean id="ANIRUDH" class=" ustbatchno3.DI_SetterInjuction.Roles">
+	
+	<property name="char_name" value="SASI "></property>
+	<property name="responsibility" value="Vazha vakkal"></property>
+	
+</bean>
+<bean id="ANIRUD" class=" ustbatchno3.DI_SetterInjuction.Roles">
+	
+	<property name="char_name" value="AMMINI "></property>
+	<property name="responsibility" value="WIFE"></property>
+	
+</bean>
+<bean id="ANIRU" class=" ustbatchno3.DI_SetterInjuction.Roles">
+	
+	<property name="char_name" value="Kunju "></property>
+	<property name="responsibility" value="BRO"></property>
+	
+</bean>
+
+</beans>
